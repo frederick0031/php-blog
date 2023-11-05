@@ -1,5 +1,5 @@
 <?php
-session_start();
+include_once("includes/header.php");
 
 if (isset($_SESSION["auth"]))
 {
@@ -8,7 +8,6 @@ if (isset($_SESSION["auth"]))
     exit(0);
 }
 
-include_once("includes/header.php");
 include_once("includes/navbar.php");
 ?>
 
